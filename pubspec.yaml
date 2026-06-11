@@ -1,0 +1,37 @@
+name: period_tracker_app
+description: "A privacy-first, fully offline period and cycle tracking app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  floor: any
+  sqflite_sqlcipher: any
+  flutter_secure_storage: any
+  uuid: any
+  flutter_local_notifications: any
+  intl: any
+  fpdart: any
+  timezone: ^0.11.0
+  flutter_timezone: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  floor_generator: any
+  build_runner: any
+  flutter_lints: any
+  mocktail: any
+
+dependency_overrides:
+  sqflite: ^2.3.0
+  sqflite_common: ^2.5.0
+
+flutter:
+  uses-material-design: true
